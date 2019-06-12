@@ -7,7 +7,7 @@ app = faust.App(
     # The topic_partitions setting defines the maximum number
     # of workers we can distribute the workload to (also sometimes
     # referred as the “sharding factor”).
-    topic_partitions=4
+    topic_partitions=4,
 )
 
 
